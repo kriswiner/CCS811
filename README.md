@@ -2,6 +2,8 @@
 
 Sketch for the BME280 and CCS811 for use with this breakout board available at Tindie:
 
+![BME280+_CCS811](https://d3s5r33r268y59.cloudfront.net/44691/products/thumbs/2017-03-25T20:47:46.605Z-BME280_CCS811.jpg.2560x2560_q85.jpg)
+
  The Bosch BME280 is a simple but high resolution pressure/humidity/temperature sensor, which can be used in its high resolution
  mode but with power consumption of 20 microAmp, or in a lower resolution mode with power consumption of
  only 1 microAmp. The choice will depend on the application.
