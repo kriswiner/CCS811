@@ -16,7 +16,7 @@
  equivalent CO2 concentration in parts per million (400 - 8192 range) and volatile organic componds in parts per billion (0 - 1187).
  The sensor is quite sensitive to breath and other human emissions.
  
- This sketch was written to operate the air quality sensor using the Butterfly STM32L433 Development Board using Thomas Roell's 
+ This sketch was written to operate the air quality sensor with the Butterfly STM32L433 Development Board using Thomas Roell's 
  STM32L4 Arduino Core. If you are using a different MCU you will have to modify the sketch since the Wire.transfer functions
  and RTC.h library are specific to the STM32L4.
  
