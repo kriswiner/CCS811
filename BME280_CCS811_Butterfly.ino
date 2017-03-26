@@ -186,11 +186,11 @@ void setup()
   Serial.println("Serial enabled!");
 
   pinMode(myLed, OUTPUT);
-  digitalWrite(myLed, HIGH); // start with led on
+  digitalWrite(myLed, LOW); // start with led on, active LOW on Butterfly
 
   // Voltage divider 27K/100K to monitor LiPo battery voltage
   pinMode(VbatMon, INPUT);
-  analogReadResolution(12); // take advantage of 12-bit ADCs
+  analogReadResolution(12); // take advantage of 12-bit ADCs on Butterfly
 
   // Configure interrupts
   pinMode(CCS811Interrupt, INPUT); // active LOW
@@ -347,9 +347,9 @@ void loop()
 
       digitalWrite(myLed, LOW); delay(10); digitalWrite(myLed, HIGH);    // toggle led for 10 ms
 
-       STM32.sleep();    // time out in stop mode to save power
+      STM32.sleep();    // time out in sleep mode to save power
        
-       delay(990);
+      delay(990);
 
 }
 
