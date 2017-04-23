@@ -69,7 +69,7 @@
 #define BME280_ADDRESS            0x76   // Address of BMP280 altimeter when BDO = LOW (default)
 #define CCS811_ADDRESS            0x5A   // Address of the CCS811 Air Quality Sensor when CDO = LOW (default)
 //#define BME280_ADDRESS            0x77   // Address of BMP280 altimeter when BDO = HIGH
-//#define CCS811_ADDRESS            0x5B   // Address of the CCS811 Air Quality Sensor when CDO = HIGH1
+//#define CCS811_ADDRESS            0x5B   // Address of the CCS811 Air Quality Sensor when CDO = HIGH
 
 #define SerialDebug true  // set to true to get Serial output for debugging
 #define myLed 13
