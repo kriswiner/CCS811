@@ -1,6 +1,6 @@
 # CCS811
 
-Sketch for the BME280 and CCS811 for use with this breakout board available at Tindie:
+Sketch for the BME280 and CCS811 for use with this breakout board available at [Tindie](https://www.tindie.com/products/onehorse/air-quality-sensors/):
 
 ![BME280+_CCS811](https://d3s5r33r268y59.cloudfront.net/44691/products/thumbs/2017-03-25T20:47:46.605Z-BME280_CCS811.jpg.2560x2560_q85.jpg)
 
