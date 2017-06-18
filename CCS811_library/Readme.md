@@ -1,0 +1,1 @@
+Standard C++ library for the Air Quality sensor for sale at [Tindie](https://www.tindie.com/products/onehorse/air-quality-sensors/), including the CCS811 CO2 sensor and the BME280 pressure, temperature and humidity sensor for compensation of the eCO2 and VOC reading from the CCS811.
