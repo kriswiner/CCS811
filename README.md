@@ -15,3 +15,13 @@ Sketch for the BME280 and CCS811 for use with this breakout board available at [
  has an embedded ASIC calibrated against most common indoor pollutants that returns a good estimate of
  equivalent CO2 concentration in parts per million (400 - 8192 range) and volatile organic componds in parts per billion (0 - 1187).
  The sensor is quite sensitive to breath and other human emissions.
+ 
+ ## How to compile and run
+ 
+The sketch isn't a proper library and you can't use the library
+tool to install it. 
+1. Unzip the file in the directory where you store your
+Arduino sketches.
+2. Open the main sketch in the Arduino IDE. 
+3. Open BME280.h, BME280.cpp, CCS811.h and CCS811.cpp in the tabs. 
+4. Compile
